@@ -1,7 +1,9 @@
 import React from "react"
 
-export default withSiteData(() => (
+const Home = () => (
   <div>
     <h1>Astronaut Lab</h1>
   </div>
-))
+)
+
+export default Home

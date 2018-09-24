@@ -9,7 +9,8 @@
     "build": "react-static build",
     "bundle": "react-static bundle",
     "export": "react-static export",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "prettier": "prettier --list-different src/**/*.js"
   },
   "dependencies": {
     "react": "^16.0.0",
@@ -19,6 +20,7 @@
     "react-static": "^5.9.8"
   },
   "devDependencies": {
+    "prettier": "^1.14.3",
     "serve": "^6.1.0"
   }
 }

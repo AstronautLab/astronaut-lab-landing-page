@@ -6,11 +6,11 @@ import Routes from "react-static-routes"
 import GlobalStyles from "./components/GlobalStyles"
 
 const App = () => (
-  <Router>
-    <GlobalStyles>
+  <GlobalStyles>
+    <Router>
       <Routes />
-    </GlobalStyles>
-  </Router>
+    </Router>
+  </GlobalStyles>
 )
 
 export default hot(module)(App)

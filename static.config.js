@@ -51,6 +51,8 @@ export default {
 
         <title>Astronaut Lab</title>
       </Head>
+
+      <Body>{children}</Body>
     </Html>
   ),
 }

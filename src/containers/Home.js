@@ -46,6 +46,7 @@ export default styled(Home)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
   padding-bottom: 20vh;
   min-height: 100vh;
   position: relative;

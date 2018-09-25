@@ -2,6 +2,7 @@ import React from "react"
 import astroLogo from "../images/logo.png"
 import ContactButton from "../components/ContactButton"
 import Copyright from "../components/Copyright"
+import ProjectList from "../components/ProjectList"
 import styled from "styled-components"
 
 const Home = ({ className }) => (
@@ -20,6 +21,8 @@ const Home = ({ className }) => (
     </ContactButton>
 
     <Copyright>© 2018 Astronaut Lab.</Copyright>
+
+    <ProjectList />
   </div>
 )
 
@@ -43,6 +46,7 @@ export default styled(Home)`
   align-items: center;
   padding-bottom: 20vh;
   min-height: 100vh;
+  position: relative;
   background: #333;
   background-image: url("https://astronautlab.co/images/bg.jpg?c86b88c827c5b05fcab3b7f033a37cc4");
   background-position: center;

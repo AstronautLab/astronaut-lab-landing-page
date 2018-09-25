@@ -5,7 +5,7 @@ import Copyright from "../components/Copyright"
 import styled from "styled-components"
 
 const Home = ({ className }) => (
-  <article className={className}>
+  <div className={className}>
     <Logo>
       <img src={astroLogo} alt="Astronaut Lab" width="auto" height="70" />
     </Logo>
@@ -20,7 +20,7 @@ const Home = ({ className }) => (
     </ContactButton>
 
     <Copyright>© 2018 Astronaut Lab.</Copyright>
-  </article>
+  </div>
 )
 
 const Logo = styled.h1`

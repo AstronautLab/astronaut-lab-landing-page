@@ -34,6 +34,7 @@ const Introduction = styled.h2`
   font-size: 32px;
   color: #fff;
   text-align: center;
+  padding: 0 40px;
   max-width: 600px;
   margin-bottom: 40px;
 `

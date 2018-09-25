@@ -35,4 +35,9 @@ export default styled(ProjectList)`
   left: 0;
   height: 120px;
   width: 100%;
+
+  @media only screen and (max-height: 660px) {
+    position: relative;
+    top: 20vh;
+  }
 `

@@ -2,7 +2,7 @@ import React from "react"
 import postieLogo from "../images/postieLogo.png"
 import styled from "styled-components"
 
-const ProjectTile = styled.div`
+const ProjectTile = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,11 +14,13 @@ const ProjectTile = styled.div`
 const ProjectList = ({ className }) => (
   <ul className={className}>
     <li>
-      <ProjectTile background="#fff">Our Projects</ProjectTile>
+      <ProjectTile href="https://astronautlab.co" background="#fff">
+        Our Projects
+      </ProjectTile>
     </li>
 
     <li>
-      <ProjectTile background="#ff5722">
+      <ProjectTile href="https://gopostie.com" background="#ff5722">
         <img src={postieLogo} width="80" alt="Postie" />
       </ProjectTile>
     </li>

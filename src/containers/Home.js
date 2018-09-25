@@ -12,8 +12,9 @@ const Home = ({ className }) => (
     </Logo>
 
     <Introduction>
-      What’s really getting done on the space station - building software
-      products!
+      Fuel your business with software products that are out of this world!
+      <br />
+      🚀
     </Introduction>
 
     <ContactButton href="mailto:pete@astronautlab.co">

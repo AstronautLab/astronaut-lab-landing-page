@@ -51,7 +51,7 @@ export default styled(Home)`
   min-height: 100vh;
   position: relative;
   background: #333;
-  background-image: url("https://astronautlab.co/images/bg.jpg?c86b88c827c5b05fcab3b7f033a37cc4");
+  background-image: url("https://user-images.githubusercontent.com/4101096/46201865-d2b56e00-c347-11e8-9b9f-bbfc7d7d2755.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

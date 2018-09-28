@@ -2,12 +2,12 @@
 
 # Astronaut Lab
 
-A basic landing page to give us a web presence, build on [React Static](https://github.com/nozzle/react-static) Shall we start a pool on how
+A basic landing page to give us a web presence, built on [React Static](https://github.com/nozzle/react-static). Shall we start a pool on how
 many hits this site gets in a whole year?!
 
 ### Deployment
 
-Pushes to the `master` branch will be built and deployed by [Netlify](https://netlify.com)
+The `master` branch is automatically deployed to [Netlify](https://netlify.com)
 
 ### Development
 
